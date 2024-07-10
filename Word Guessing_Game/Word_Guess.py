@@ -10,7 +10,6 @@ word = random.choice(words)
 
 print(f"Guess the {len(word)} word Characters")
 guesses = ""
-print(word)
 while turns>0:
     #no. of times user failed
     failed = 0
